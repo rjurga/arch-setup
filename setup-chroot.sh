@@ -317,8 +317,7 @@ pacman -S --noconfirm \
     kolourpaint \
     kwrite \
     okular \
-    partitionmanager \
-    spectacle
+    partitionmanager
 
 
 # Multimedia
@@ -352,6 +351,7 @@ pacman -S --noconfirm \
 
 pacman -S --noconfirm \
     alacritty \
+    flameshot \
     hugo \
     qbittorrent
 
