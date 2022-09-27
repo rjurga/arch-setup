@@ -228,6 +228,7 @@ pacman -S --noconfirm \
     bat \
     fd \
     gdb \
+    gdu \
     git \
     htop \
     neovim \
