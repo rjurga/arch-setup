@@ -225,11 +225,14 @@ ln -s /usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf     /etc/fonts/conf
 # Command-line utilities
 pacman -S --noconfirm \
     bash-completion \
+    bat \
+    fd \
     gdb \
     git \
     htop \
     neovim \
     openssh \
+    ripgrep \
     rsync \
     tree \
     usbutils \
