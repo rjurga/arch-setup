@@ -224,6 +224,7 @@ ln -s /usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf     /etc/fonts/conf
 
 # Command-line utilities
 pacman -S --noconfirm \
+    alacritty \
     bash-completion \
     bat \
     fd \
@@ -312,14 +313,12 @@ pacman -S --noconfirm \
     ark \
     dolphin \
     ebook-tools \
-    elisa \
     ffmpegthumbs \
     gwenview \
     kcalc \
     kdegraphics-thumbnailers \
     kdialog \
     kolourpaint \
-    kwrite \
     okular \
     partitionmanager
 
@@ -354,7 +353,6 @@ pacman -S --noconfirm \
 # Other software
 
 pacman -S --noconfirm \
-    alacritty \
     flameshot \
     hugo \
     qbittorrent
