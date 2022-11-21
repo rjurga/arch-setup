@@ -72,7 +72,6 @@ mount -o defaults,noatime /dev/"${SETUP_DISK}1" /mnt/boot
 
 truncate -s 0 /mnt/swap/swapfile
 chattr +C /mnt/swap/swapfile
-btrfs property set /mnt/swap/swapfile compression no
 
 dd if=/dev/zero of=/mnt/swap/swapfile bs=1MiB count=${SETUP_SWAP_GIB}KiB status=progress
 chmod 0600 /mnt/swap/swapfile
