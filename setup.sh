@@ -4,7 +4,7 @@ set -eux
 
 SETUP_DISK=sda
 SETUP_MIRROR='http://mirrors.kernel.org/archlinux/$repo/os/$arch'
-SETUP_SWAP_GIB=16
+SETUP_SWAP_MIB=16384
 
 SETUP_DIR=$(dirname -- "${0}")
 
@@ -73,7 +73,7 @@ mount -o defaults,noatime /dev/"${SETUP_DISK}1" /mnt/boot
 truncate -s 0 /mnt/swap/swapfile
 chattr +C /mnt/swap/swapfile
 
-dd if=/dev/zero of=/mnt/swap/swapfile bs=1MiB count=${SETUP_SWAP_GIB}KiB status=progress
+dd if=/dev/zero of=/mnt/swap/swapfile bs=1MiB count=${SETUP_SWAP_MIB} status=progress
 chmod 0600 /mnt/swap/swapfile
 mkswap /mnt/swap/swapfile
 
