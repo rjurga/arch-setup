@@ -338,7 +338,7 @@ pacman -S --noconfirm \
     print-manager \
     system-config-printer
 
-ln -s /usr/lib/systemd/system/cups.socket /etc/systemd/system/sockets.target.wants/cups.socket
+ln -sf /usr/lib/systemd/system/cups.socket /etc/systemd/system/sockets.target.wants/cups.socket
 
 
 # Office software and spell checking
