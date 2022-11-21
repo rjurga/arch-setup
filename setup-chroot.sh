@@ -353,6 +353,7 @@ pacman -S --noconfirm \
 # Other software
 
 pacman -S --noconfirm \
+    firefox \
     flameshot \
     hugo \
     qbittorrent
