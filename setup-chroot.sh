@@ -234,6 +234,7 @@ pacman -S --noconfirm \
     htop \
     neovim \
     openssh \
+    p7zip \
     ripgrep \
     rsync \
     tree \
