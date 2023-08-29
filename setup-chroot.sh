@@ -228,6 +228,7 @@ pacman -S --noconfirm \
     alacritty \
     bash-completion \
     bat \
+    clang \
     fd \
     gdb \
     gdu \
