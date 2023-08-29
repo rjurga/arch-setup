@@ -223,6 +223,7 @@ ln -s /usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf     /etc/fonts/conf
 
 
 # Command-line utilities
+
 pacman -S --noconfirm \
     alacritty \
     bash-completion \
@@ -357,6 +358,7 @@ pacman -S --noconfirm \
     firefox \
     flameshot \
     hugo \
+    neovide \
     qbittorrent
 
 
