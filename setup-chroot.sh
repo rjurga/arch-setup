@@ -219,9 +219,6 @@ pacman -S --noconfirm \
     noto-fonts-emoji \
     ttf-hack
 
-ln -s /usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf     /etc/fonts/conf.d/10-sub-pixel-rgb.conf
-
-
 # Command-line utilities
 
 pacman -S --noconfirm \
