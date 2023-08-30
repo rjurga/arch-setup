@@ -377,5 +377,6 @@ sudo -u ${SETUP_USER} git remote set-url origin git@github.com:rjurga/dotfiles.g
 
 # vim-plug
 
-curl -fLo /home/${SETUP_USER}/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+sudo -u ${SETUP_USER} \
+    curl -fLo /home/${SETUP_USER}/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
