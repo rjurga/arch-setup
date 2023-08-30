@@ -226,6 +226,7 @@ pacman -S --noconfirm \
     bash-completion \
     bat \
     clang \
+    cmake \
     curl \
     fd \
     gdb \
