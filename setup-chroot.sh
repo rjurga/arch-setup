@@ -355,6 +355,7 @@ pacman -S --noconfirm \
 # Other software
 
 pacman -S --noconfirm \
+    dosfstools \
     firefox \
     flameshot \
     hugo \
